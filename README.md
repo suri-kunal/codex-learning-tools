@@ -15,10 +15,8 @@ The plugin runs locally, makes no network requests, and writes conversation data
 
 ## Install from GitHub
 
-After this repository has been pushed to GitHub, replace `OWNER` below:
-
 ```bash
-codex plugin marketplace add OWNER/codex-learning-tools
+codex plugin marketplace add suri-kunal/codex-learning-tools
 codex plugin add education-tools@codex-learning-tools
 ```
 
@@ -27,7 +25,7 @@ Start a new Codex session after installation. Open `/hooks` and review and trust
 ## Install from this local checkout
 
 ```bash
-codex plugin marketplace add /Users/namitabist/codex-learning-tools
+codex plugin marketplace add /absolute/path/to/codex-learning-tools
 codex plugin add education-tools@codex-learning-tools
 ```
 

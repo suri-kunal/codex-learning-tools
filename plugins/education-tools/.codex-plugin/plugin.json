@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Interactive question and graded quiz popups plus opt-in Markdown conversation logging.",
   "author": {
-    "name": "Namitabist"
+    "name": "Kunal Suri",
+    "url": "https://github.com/suri-kunal"
   },
+  "homepage": "https://github.com/suri-kunal/codex-learning-tools",
+  "repository": "https://github.com/suri-kunal/codex-learning-tools",
   "license": "MIT",
   "keywords": ["education", "quiz", "questions", "markdown", "logging"],
   "skills": "./skills/",
@@ -13,8 +16,9 @@
     "displayName": "Education Tools",
     "shortDescription": "Question and quiz popups with Markdown lesson logging.",
     "longDescription": "Ask structured questions, run automatically graded quizzes with immediate feedback, and opt in to session-scoped Markdown logging.",
-    "developerName": "Namitabist",
+    "developerName": "Kunal Suri",
     "category": "Education",
+    "websiteURL": "https://github.com/suri-kunal/codex-learning-tools",
     "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
       "Ask me one structured clarification question.",

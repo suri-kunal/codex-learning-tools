@@ -10,4 +10,4 @@ Codex requires users to review and trust plugin hooks before they run. The inclu
 
 ## Reporting
 
-Until a public repository is configured, report security issues directly to the repository owner. Do not include sensitive conversation logs in reports.
+Report vulnerabilities privately through [GitHub Security Advisories](https://github.com/suri-kunal/codex-learning-tools/security/advisories/new). Do not include sensitive conversation logs in public issues.
