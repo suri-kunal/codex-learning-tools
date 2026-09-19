@@ -22,7 +22,7 @@ const compatibilityMcp = readJson("plugins/education-tools/.mcp.json");
 const packageJson = readJson("plugins/education-tools/package.json");
 const hooks = readJson("plugins/education-tools/hooks/hooks.json");
 
-assert(marketplace.name === "education-tools", "Unexpected marketplace name.");
+assert(marketplace.name === "codex-learning-tools", "Unexpected marketplace name.");
 assert(Array.isArray(marketplace.plugins) && marketplace.plugins.length === 1, "Marketplace must expose exactly one plugin.");
 const entry = marketplace.plugins[0];
 assert(entry.name === "education-tools", "Marketplace plugin name is inconsistent.");

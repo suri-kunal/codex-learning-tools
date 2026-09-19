@@ -1,7 +1,7 @@
 {
-  "name": "education-tools",
+  "name": "codex-learning-tools",
   "interface": {
-    "displayName": "Education Tools"
+    "displayName": "Codex Learning Tools"
   },
   "plugins": [
     {

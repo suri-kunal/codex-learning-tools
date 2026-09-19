@@ -1,4 +1,4 @@
-# Codex Education Tools
+# Codex Learning Tools
 
 A distributable Codex plugin providing:
 
@@ -18,8 +18,8 @@ The plugin runs locally, makes no network requests, and writes conversation data
 After this repository has been pushed to GitHub, replace `OWNER` below:
 
 ```bash
-codex plugin marketplace add OWNER/codex-education-tools
-codex plugin add education-tools@education-tools
+codex plugin marketplace add OWNER/codex-learning-tools
+codex plugin add education-tools@codex-learning-tools
 ```
 
 Start a new Codex session after installation. Open `/hooks` and review and trust the Education Tools hooks before using Markdown logging. Question and quiz popups do not depend on the logger hooks.
@@ -27,8 +27,8 @@ Start a new Codex session after installation. Open `/hooks` and review and trust
 ## Install from this local checkout
 
 ```bash
-codex plugin marketplace add /Users/namitabist/codex-education-tools
-codex plugin add education-tools@education-tools
+codex plugin marketplace add /Users/namitabist/codex-learning-tools
+codex plugin add education-tools@codex-learning-tools
 ```
 
 Then start a new Codex session.
@@ -49,8 +49,8 @@ The Markdown destination must already exist. Logging begins after the start tool
 ## Update
 
 ```bash
-codex plugin marketplace upgrade education-tools
-codex plugin add education-tools@education-tools
+codex plugin marketplace upgrade codex-learning-tools
+codex plugin add education-tools@codex-learning-tools
 ```
 
 Start a new session so Codex loads the updated skills and MCP tools.
