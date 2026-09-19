@@ -8,6 +8,14 @@ A distributable Codex plugin providing:
 
 The plugin runs locally, makes no network requests, and writes conversation data only to the existing Markdown file selected by the user.
 
+## Origin and attribution
+
+**This repository's implementation, packaging, tests, and documentation were created by OpenAI Codex (GPT-5.6 Sol), under the direction of Kunal Suri.**
+
+The repository was created to make the core interactive-learning workflow from [Amos Blomqvist's `learn`](https://github.com/amosblomqvist/learn) usable in Codex. That project is a learning system for Pi; this repository independently adapts its question popup, graded quiz, and Markdown session-logging ideas to Codex's MCP, plugin, and hook systems.
+
+This is an independent Codex adaptation and is not an official upstream release. See [`ACKNOWLEDGMENTS.md`](ACKNOWLEDGMENTS.md) for details.
+
 ## Requirements
 
 - Codex CLI or Codex in the ChatGPT desktop app with plugin support

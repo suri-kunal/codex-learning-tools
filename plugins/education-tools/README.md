@@ -1,6 +1,10 @@
 # Education Tools Plugin
 
-The installable plugin package for the [Codex Education Tools marketplace](../../README.md).
+The installable plugin package for the [Codex Learning Tools marketplace](../../README.md).
+
+## Origin
+
+This Codex implementation was created by **OpenAI Codex (GPT-5.6 Sol)** under the direction of **Kunal Suri**. It exists to make the question, quiz, and Markdown-logging workflow from [Amos Blomqvist's `learn`](https://github.com/amosblomqvist/learn) usable in Codex through MCP and lifecycle hooks. It is an independent adaptation, not an official upstream release.
 
 ## MCP tools
 
