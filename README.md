@@ -52,6 +52,36 @@ Stop Markdown logging.
 
 The Markdown destination must already exist. Logging begins after the start tool call and does not backfill earlier conversation.
 
+## Start logging to a new Markdown file
+
+First create the file and obtain its absolute path:
+
+```bash
+mkdir -p notes
+printf '# Learning Session\n' > notes/session.md
+realpath notes/session.md
+```
+
+Start a new Codex session:
+
+```bash
+codex
+```
+
+On first use, open `/hooks` and review and trust the **Education Tools** hooks. Then ask Codex to start logging with the absolute path returned by `realpath`:
+
+```text
+Start Markdown logging to /absolute/path/to/notes/session.md
+```
+
+Approve the write operation if prompted. Future user prompts, assistant replies, question exchanges, and quiz results will be appended to the file. Conversation from before activation is not backfilled.
+
+To stop logging:
+
+```text
+Stop Markdown logging.
+```
+
 ## Update
 
 ```bash
